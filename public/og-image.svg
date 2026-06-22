@@ -6,7 +6,7 @@
   <circle cx="125" cy="125" r="16" stroke="white" stroke-width="7"/>
   <circle cx="142" cy="142" r="8" fill="#57D4B4" stroke="#09243C" stroke-width="5"/>
   <text x="180" y="141" fill="#09243C" font-family="Arial, sans-serif" font-size="47" font-weight="700">SafeStop</text>
-  <text x="88" y="322" fill="#09243C" font-family="Arial, sans-serif" font-size="82" font-weight="700" letter-spacing="-4">Never forget who’s</text>
-  <text x="88" y="415" fill="#09243C" font-family="Arial, sans-serif" font-size="82" font-weight="700" letter-spacing="-4">in the car.</text>
-  <text x="92" y="500" fill="#557183" font-family="Arial, sans-serif" font-size="28">A calmer, safer routine for every drive.</text>
+  <text x="88" y="322" fill="#09243C" font-family="Arial, sans-serif" font-size="82" font-weight="700" letter-spacing="-4">Every trip.</text>
+  <text x="88" y="415" fill="#09243C" font-family="Arial, sans-serif" font-size="82" font-weight="700" letter-spacing="-4">Accounted for.</text>
+  <text x="92" y="500" fill="#557183" font-family="Arial, sans-serif" font-size="28">Shared responsibility for every family ride.</text>
 </svg>

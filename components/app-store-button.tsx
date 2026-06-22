@@ -5,7 +5,7 @@ export function AppStoreButton({ className = "" }: { className?: string }) {
     <a
       href="#APP_STORE_LINK_HERE"
       className={`inline-flex items-center gap-3 rounded-2xl bg-ink px-5 py-3.5 text-left text-white shadow-lg shadow-[#09243c]/15 transition duration-200 hover:-translate-y-0.5 hover:bg-[#123955] ${className}`}
-      aria-label="Download SafeStop on the App Store"
+      aria-label="Download on the App Store"
     >
       <AppleLogo size={29} weight="fill" aria-hidden="true" />
       <span>

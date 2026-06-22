@@ -179,7 +179,7 @@ export default function Home() {
       <section id="how-it-works" className="bg-white py-24 sm:py-32">
         <div className="mx-auto max-w-7xl px-5 sm:px-8 lg:px-10">
           <div className="mx-auto max-w-2xl text-center">
-            <p className="text-xs font-bold uppercase tracking-[0.18em] text-teal">A shared routine</p>
+            <p className="text-xs font-bold uppercase tracking-[0.18em] text-[#1f756e]">A shared routine</p>
             <h2 className="mt-4 text-4xl font-bold tracking-[-0.05em] text-ink sm:text-5xl">How SafeStop works</h2>
             <p className="mt-5 text-lg leading-8 text-[#607787]">Four clear steps support caregiver accountability from pickup to confirmed drop-off.</p>
           </div>
@@ -190,7 +190,7 @@ export default function Home() {
               return (
                 <article key={step.number} className="relative rounded-[1.75rem] border border-[#e1eeeb] bg-white p-6 shadow-card transition duration-300 hover:-translate-y-1 hover:shadow-soft">
                   <div className={`flex h-14 w-14 items-center justify-center rounded-2xl ${step.color}`}><Icon size={27} weight="fill" /></div>
-                  <p className="mt-7 text-xs font-bold tracking-[0.16em] text-[#8ba0ac]">{step.number}</p>
+                  <p className="mt-7 text-xs font-bold tracking-[0.16em] text-[#5e7583]">{step.number}</p>
                   <h3 className="mt-2 text-xl font-bold tracking-[-0.03em] text-ink">{step.title}</h3>
                   <p className="mt-2 text-sm leading-6 text-[#607787]">{step.text}</p>
                 </article>
@@ -219,7 +219,7 @@ export default function Home() {
                 </div>
               ))}
             </div>
-            <p className="mt-9 border-t border-white/10 pt-6 text-xs leading-5 text-white/45">SafeStop encourages caregiver awareness. It is not a safety device, monitoring device, emergency response service, or substitute for active adult supervision.</p>
+            <p className="mt-9 border-t border-white/10 pt-6 text-xs leading-5 text-white/65">SafeStop encourages caregiver awareness. It is not a safety device, monitoring device, emergency response service, or substitute for active adult supervision.</p>
           </div>
           <div className="relative min-h-[620px] sm:min-h-[720px]">
             <IPhoneFrame
@@ -239,9 +239,9 @@ export default function Home() {
       <section id="for-every-family" className="bg-[#f3f9f7] py-24 sm:py-32">
         <div className="mx-auto grid max-w-7xl items-center gap-16 px-5 sm:px-8 lg:grid-cols-[1fr_0.88fr] lg:px-10">
           <div>
-            <p className="text-xs font-bold uppercase tracking-[0.18em] text-teal">One routine, many caregivers</p>
+            <p className="text-xs font-bold uppercase tracking-[0.18em] text-[#1f756e]">One routine, many caregivers</p>
             <h2 className="mt-4 max-w-2xl text-4xl font-bold leading-tight tracking-[-0.05em] text-ink sm:text-5xl">Clear responsibility for everyone behind the wheel.</h2>
-            <p className="mt-6 max-w-2xl text-lg leading-8 text-[#607787]">From a parent’s morning drop-off to babysitter child pickup verification or a shared carpool, SafeStop gives each adult the same child transportation safety routine.</p>
+            <p className="mt-6 max-w-2xl text-lg leading-8 text-[#4f6877]">From a parent’s morning drop-off to babysitter child pickup verification or a shared carpool, SafeStop gives each adult the same child transportation safety routine.</p>
             <div className="mt-10 grid gap-3 sm:grid-cols-2">
               {[
                 ["Parents & spouses", "Share ride status without chasing texts."],
@@ -251,7 +251,7 @@ export default function Home() {
               ].map(([title, text]) => (
                 <article key={title} className="rounded-2xl border border-[#dceae7] bg-white p-5 shadow-card">
                   <h3 className="font-bold tracking-[-0.02em] text-ink">{title}</h3>
-                  <p className="mt-2 text-sm leading-6 text-[#667d8b]">{text}</p>
+                  <p className="mt-2 text-sm leading-6 text-[#526b79]">{text}</p>
                 </article>
               ))}
             </div>
@@ -286,9 +286,9 @@ export default function Home() {
       <section className="bg-[#f6faf9] py-24 sm:py-32" aria-labelledby="faq-heading">
         <div className="mx-auto max-w-5xl px-5 sm:px-8">
           <div className="mx-auto max-w-2xl text-center">
-            <p className="text-xs font-bold uppercase tracking-[0.18em] text-teal">Straight answers</p>
+            <p className="text-xs font-bold uppercase tracking-[0.18em] text-[#1f756e]">Straight answers</p>
             <h2 id="faq-heading" className="mt-4 text-4xl font-bold tracking-[-0.05em] text-ink sm:text-5xl">SafeStop FAQ</h2>
-            <p className="mt-5 text-lg leading-8 text-[#607787]">What families and caregivers should know before using SafeStop.</p>
+            <p className="mt-5 text-lg leading-8 text-[#4f6877]">What families and caregivers should know before using SafeStop.</p>
           </div>
           <div className="mt-12 grid gap-4 md:grid-cols-2">
             {faqs.map((faq) => (

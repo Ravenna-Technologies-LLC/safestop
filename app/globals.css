@@ -44,12 +44,36 @@ body {
   color: var(--ink);
 }
 
+.legal h3 {
+  margin-top: 1.75rem;
+  margin-bottom: 0.65rem;
+  font-size: 1.05rem;
+  font-weight: 700;
+  letter-spacing: -0.01em;
+  color: var(--ink);
+}
+
 .legal p, .legal li {
   color: #536d7f;
   line-height: 1.8;
 }
 
 .legal ul { margin: 1rem 0; padding-left: 1.25rem; list-style: disc; }
+
+.legal a {
+  color: var(--blue);
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 3px;
+}
+
+.legal a:hover { color: var(--ink); }
+
+.legal a:focus-visible {
+  border-radius: 0.2rem;
+  outline: 3px solid rgba(45, 155, 145, 0.35);
+  outline-offset: 3px;
+}
 
 @media (prefers-reduced-motion: reduce) {
   html { scroll-behavior: auto; }

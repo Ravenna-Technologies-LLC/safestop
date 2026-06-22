@@ -12,6 +12,7 @@ export function Footer() {
         <nav className="flex gap-6 text-sm font-medium text-[#536d7f]" aria-label="Footer navigation">
           <Link href="/privacy" className="hover:text-ink">Privacy Policy</Link>
           <Link href="/terms" className="hover:text-ink">Terms of Service</Link>
+          <Link href="/contact" className="hover:text-ink">Contact</Link>
         </nav>
       </div>
     </footer>
